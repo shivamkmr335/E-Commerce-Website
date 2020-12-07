@@ -383,9 +383,8 @@ li{
 }
 .left{
     overflow: hidden;
-    width:48%;
+    width:49%;
     float: left;
-    background-color: rgba(241, 132, 7, 0.719);
     color: white;
     text-align: justify;
     height: 100vh;
@@ -395,7 +394,7 @@ li{
     font-size: 20px;
 }
 .right{
-    width:48%;
+    width:49%;
     float: right;
     height:100vh;
 }
@@ -403,11 +402,11 @@ li{
     height: 50%;
     text-align: center;
     font-size: 28px;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
+    margin-top: 10px;
     padding:10px;
     box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
 }
 
 
