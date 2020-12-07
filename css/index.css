@@ -383,7 +383,7 @@ li{
 }
 .left{
     overflow: hidden;
-    width:49%;
+    width:48%;
     float: left;
     color: white;
     text-align: justify;
@@ -394,7 +394,7 @@ li{
     font-size: 20px;
 }
 .right{
-    width:49%;
+    width:48%;
     float: right;
     height:100vh;
 }
