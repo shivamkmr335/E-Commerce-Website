@@ -118,11 +118,11 @@ li{
     margin: 10px;
 }
 .social ul li{
-    margin-right: 15px;
-    display: inline-block;
     width: 50px;
     height: 50px;
-    padding:10px;
+    display: inline;
+    padding: 10px;
+    align-items: center;
     background-color: darkgray;
     border-radius: 50%;
 }
@@ -191,81 +191,127 @@ li{
     color: black;
 }
 /* ------------------ MAIN SECTION ---------------------- */
-main{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
 .spacer{
     height: 70px;
     width: 100%;
 }
-.container{
-    min-width: 240px;
-    min-height: 350px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    box-sizing: unset;
-    height: 70vh;
-    width: 22%;
-    background-color: white;
-    overflow: hidden;
+main{
+    height: 85vh;
+    display: flex;
 }
-.container img{
-    border: 1px solid grey;
-    height: 45vh;
-    width: 100%;
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 100%;
 }
-.container .details{
-    height: 40vh;
-    background-color: white;
+.product{
+    margin: 5px;
+    height: 100%;
+    flex: 5;
+    background-color: #ffffff;
+}
+.delivery{
+    flex: 5;
+    font-size: 125%;
+    background-color: #ffffff;
+}
+.product .flx .image{
+    float: left;
+}
+.product .flx .details{
+    float: left;
+    margin-left: 20px;
+}
+.details .op{
+    padding: 12px;
+}
+.details .brand{
+    margin-top: 20px;
+    color: rgb(102, 98, 98);
+    font-size: 150%;
+}
+.details .product{
+    margin-top: 30px;
+    font-size: 125%;
 
 }
-.container .details:hover{
-    position: relative;
-    top: -30px;
-    transition: 0.4s;
-}
-.container .details .brand{
-    color: rgb(102, 98, 98);
-    font-size: 132%;
-}
-.container .details .product{
-    display: inline;
-}
-.container .details .price{
+.details .price{
     font-size: 170%;
     margin-top: 8px;
     text-align: end;
     margin-right: 10px;
 }
-.container .details .mp{
+.details .mp{
     text-decoration: line-through;
     color: rgb(71, 70, 70);
     margin-left: 10px;
 }
-.container .details .discount{
+.details .discount{
     text-align: end;
     margin-right: 10px;
     color: rgb(8, 141, 8);
     font-size: 150%;
 }
-.container .details .buybtn{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid;
-    background-color: rgb(255, 174, 0);
+.details .size{
+    margin-top: 100px;
 }
-.container .details .buybtn a{
+.bill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 100%;
+    flex: 2.5;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.product h1{
+    background-color: rgba(10, 149, 241, 0.815);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.bill h1{
+    background-color: rgba(150, 158, 155, 0.815);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.discount .lft{
+    color: rgb(8, 197, 8);
+}
+
+.rt{
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 30px;
+    text-decoration: solid;
+    position: relative;
+}
+.lft{
+    line-height: 40px;
+    font-size: 30px;
+    text-decoration: solid;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.checkout{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+.checkout a{
+    background-color: rgb(255, 123, 0);
+    text-decoration: solid;
+    padding: 10px;
     text-decoration: none;
     color: #000;
-    display: block;
-}
-.container .details .size{
-    margin-top: 12px;
 }
 /* ------------------FOOTER SECTION---------------------- */
 
